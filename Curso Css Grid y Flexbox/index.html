@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="music-player">
+        <header class="header">
+            <i class="fas fa-chevron-down"></i>
+            <span>Now Playing</span>
+            <i class="fas fa-ellipsis-h"></i>
+        </header>
+
+        <div class="album-art">
+            <img src="imgs/Metallica.jpg" alt="">
+        </div>
+
+        <section class="song-info">
+            <h2 class="song-title">Nothing Else Matters</h2>
+            <p class="artist-name">Metallica</p>
+        </section>
+
+        <section class="progress-bar">
+            <div class="progress"></div>
+            <div class="time">
+                <span>1:23</span>
+                <span>3:45</span>
+            </div>
+        </section>
+
+        <nav class="controls">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play-circle play-button"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo"></i>
+        </nav>
+
+        <footer class="volume-control">
+            <i class="fas fa-volume-down"></i>
+            <div class="volume-slider">
+                <div class="volume-level"></div>
+            </div>
+            <i class="fas fa-volume-up"></i>
+        </footer>
+    </div>
+</body>
+</html>

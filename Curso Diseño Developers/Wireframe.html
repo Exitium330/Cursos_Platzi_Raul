@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe - Ciclo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .placeholder-img {
+            background-color: #e5e7eb; 
+            border: 2px dashed #9ca3af; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b7280;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    
+    <header class="border-b">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="font-bold text-2xl">Ciclo</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-600 hover:text-black">Nosotros</a>
+                <a href="#" class="text-gray-600 hover:text-black">Planes</a>
+                <a href="#" class="text-gray-600 hover:text-black">Taller</a>
+                <a href="#" class="text-gray-600 hover:text-black">Contacto</a>
+            </nav>
+            <div class="md:hidden">
+               
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-16">
+
+       
+        <section class="text-center">
+            <h1 class="text-4xl md:text-6xl font-bold">Rueda tranquilo.</h1>
+            <p class="text-lg md:text-xl text-gray-600 mt-4">Nosotros cuidamos tu bici.</p>
+            <button class="bg-gray-800 text-white font-bold py-3 px-8 rounded-lg mt-8 hover:bg-gray-700">
+                Reserva tu cupo ahora
+            </button>
+        </section>
+
+        <section class="mt-16 md:mt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold">Seguridad y conveniencia para el ciclista urbano</h2>
+                    <p class="text-gray-600 mt-4">
+                        Sabemos que tu bicicleta es tu medio de transporte, tu compañera de aventuras y una inversión. Por eso creamos un espacio pensado para darte la tranquilidad que necesitas.
+                    </p>
+                </div>
+                <div class="placeholder-img h-64 md:h-80 rounded-lg">
+                    <span>[Imagen de parqueadero seguro]</span>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="mt-16 md:mt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="placeholder-img h-64 md:h-80 rounded-lg order-last md:order-first">
+                     <span>[Imagen de mecánico en el taller]</span>
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold">Más que un parqueadero, un centro de soluciones</h2>
+                    <p class="text-gray-600 mt-4">
+                        Desde un lugar seguro donde dejar tu bici hasta una puesta a punto de último minuto. Tenemos todo lo que necesitas para que nada te detenga.
+                    </p>
+                    <ul class="mt-4 space-y-2">
+                        <li>✅ Parqueadero vigilado</li>
+                        <li>✅ Taller de reparaciones rápidas</li>
+                        <li>✅ Venta de accesorios básicos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="mt-16 md:mt-24 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold">Nuestros Planes</h2>
+            <div class="flex justify-center space-x-4 mt-8 border-b">
+                <button class="font-semibold py-2 px-4 border-b-2 border-black">Parqueadero</button>
+                <button class="font-semibold py-2 px-4 text-gray-500">Taller</button>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 text-left">
+                
+                <div class="border rounded-lg p-4">
+                    <div class="placeholder-img h-40 rounded-md mb-4"></div>
+                    <h3 class="font-bold text-xl">Plan por Horas</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Ideal para esas vueltas rápidas por el centro. Paga solo por el tiempo que usas.</p>
+                    <p class="font-bold text-lg mt-4">$2.000 / hora</p>
+                    <button class="w-full bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-lg mt-4 hover:bg-gray-300">Reservar</button>
+                </div>
+                
+                <div class="border rounded-lg p-4">
+                    <div class="placeholder-img h-40 rounded-md mb-4"></div>
+                    <h3 class="font-bold text-xl">Plan Día Completo</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Perfecto para tu jornada laboral o de estudio. Deja tu bici segura todo el día.</p>
+                    <p class="font-bold text-lg mt-4">$8.000 / día</p>
+                     <button class="w-full bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-lg mt-4 hover:bg-gray-300">Reservar</button>
+                </div>
+              
+                <div class="border rounded-lg p-4">
+                    <div class="placeholder-img h-40 rounded-md mb-4"></div>
+                    <h3 class="font-bold text-xl">Plan Mensual</h3>
+                    <p class="text-gray-600 mt-2 text-sm">La opción más cómoda y económica si ruedas a diario. Acceso ilimitado.</p>
+                    <p class="font-bold text-lg mt-4">$70.000 / mes</p>
+                     <button class="w-full bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-lg mt-4 hover:bg-gray-300">Contratar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer class="bg-gray-100 mt-16 md:mt-24">
+        <div class="container mx-auto p-8 text-center md:text-left">
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-bold text-2xl mb-2">Ciclo</h3>
+                    <p class="text-gray-600">Tu bici, segura y a punto.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-2">Contacto</h4>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>Teléfono: (604) 123-4567</li>
+                        <li>Dirección: Cra. 45 #52-1, Medellín</li>
+                        <li>Horario: L-V 7am - 8pm</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-2">Síguenos</h4>
+                     <ul class="text-gray-600 space-y-1">
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>TikTok</li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </footer>
+
+</body>
+</html>

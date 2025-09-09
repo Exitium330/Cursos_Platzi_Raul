@@ -35,4 +35,4 @@ const valorAbsoluto = Math.abs(-10); // 10
 const aleatorio = Math.random(); // Número aleatorio entre 0 y 1
 console.log(raizCuadrada);
 console.log(valorAbsoluto);
-console.log(aleatorio.toFixed(2));
+console.log(aleatorio.toFixed(2)); 

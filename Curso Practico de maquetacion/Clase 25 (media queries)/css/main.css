@@ -62,7 +62,7 @@ nav .nav-logo-container img {
     margin-top: 10px;
 }
 nav .profile-link {
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;

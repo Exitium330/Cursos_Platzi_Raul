@@ -1,6 +1,6 @@
 const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
-        let operationSuccessful = true; // Cambia esto a false para simular un error
+        let operationSuccessful = true; 
         if (operationSuccessful) {
             resolve("Operación exitosa!");
         } else {
